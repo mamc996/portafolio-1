@@ -75,7 +75,7 @@ header {
     color: transparent;
     margin: 0% ;
     font-size: 80px;
-    background-image:url(assets/moradoyblaco.jpg);
+    background-image:url(../assets/moradoyblaco.jpg);
     background-size: cover;
     background-position-y:end;
     background-clip: text;
