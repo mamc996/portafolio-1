@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&family=Open+Sans:ital,wght@1,300;1,500&family=Roboto:wght@300&family=Rubik+Doodle+Triangles&display=swap');
+
+body {
+    margin-bottom: 0%;
+    background: #0a0217;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+}
+
+#buscadores { 
+    display: inline-flex;
+    list-style: none;
+}
+
+#buscadores a {
+    padding: 0px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#buscadores a:hover {
+    background-color: rgba(255, 255, 255, 80%);
+    color: rgb(20, 2, 20);
+    border-radius: 8px;
+}
+
+#contacto {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px 90px;
+    border-radius: 25px;
+    border: 3px solid rgba(241, 239, 239, 20%);
+    font-family: 'JetBrains Mono', monospace;       
+}
+
+#contacto:hover {
+    color: #0a0217;
+    background-color: rgba(255, 255, 255,70%);
+    border: 3px solid #fff;
+}
+
+/*section*/
+
+#descripcion {
+    margin: 8em 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#parrafo {
+    color: #fff;
+}
+
+#parrafo h2 {
+    margin-bottom: 0%;
+    font-size: 30px;
+}
+
+#parrafo h1 {
+    color: transparent;
+    margin: 0% ;
+    font-size: 80px;
+    background-image:url(/assets/moradoyblaco.jpg);
+    background-size: cover;
+    background-position-y:end;
+    background-clip: text;
+
+}
+
+#parrafo h3 {
+    margin: 0%;
+    font-size: 40px;
+}
+
+#parrafo p {
+    font-size: 14px;
+}
+
+#botones {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 0%;
+}
+
+.bottom {
+    margin-right: 80px ;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 25px;
+    border: 3px solid rgba(241, 239, 239, 20%);
+}
+
+.bottom:hover { 
+    color: #0a0217;
+    background-color: rgba(255, 255, 255,70%);
+    border: 3px solid #fff;
+}
+
+
+
+#tarjeta img{
+    border-radius: 50px;  
+}
+
+/*segundo section*/
+
+#lista {
+    margin: 0px 13%;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#lista a{
+    
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#more {
+    color: #fff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.fa-solid  {
+    padding-right: 10px; 
+
+}
+
+.programas img {
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    
+
+}
+
+.programas a {
+    display: block;
+    text-align: center;
+    
+}
+
+
+.programas {
+    padding-right: 10%;
+    display: inline;    
+    height: 120px; 
+
+ 
+    
+}
+
+#menu {
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+
+/*section 3*/
+
+#s-collection {
+    margin: 0px 13%;
+    margin-top: 10em;
+    color: #fff;
+
+}
+
+#s-collection h2 {
+    font-size: 35px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#s-collection ul {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#s-collection ul li {
+    list-style: none;
+}
+
+#s-collection img {
+    width: 20em;
+    height: 20em;
+    margin: 0% 20px;
+    
+}
+
+
+
+/*footer*/
+
+footer {
+    height: 2;
+    background-color: black;
+    padding: 5em 0%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+
+footer h3 {
+        padding: 0% 20em;
+}
