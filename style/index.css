@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&family=Open+Sans:ital,wght@1,300;1,500&family=Roboto:wght@300&family=Rubik+Doodle+Triangles&display=swap');
 
+
+
 body {
     margin-bottom: 0%;
     background: #0a0217;
@@ -182,51 +184,68 @@ header {
 
 /*section 3*/
 
-#s-collection {
-    margin: 0px 13%;
-    margin-top: 10em;
+#section-three {
+    margin: 70px 13%;
+}
+
+#refe {
+    
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo {
     color: #fff;
-
+    font-size: 2em;
 }
 
-#s-collection h2 {
-    font-size: 35px;
-    margin-bottom: 2em;
-    text-align: center;
-}
-
-#s-collection ul {
-    display:flex;
-    justify-content: space-around;
-    text-align: center;
-    
-}
-
-#s-collection ul li {
-    list-style: none;
-}
-
-#s-collection img {
-    width: 20em;
+.container img {
+    width: 24em;
     height: 20em;
-    margin: 0% 20px;
-    
 }
 
+.container {
+    position: relative;
+    text-align: left;
+}
+
+.texto {
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    width: 12em;
+}
+
+
+main {
+    margin: 70px 13%;
+}
+
+
+.cart-present {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+   
+}
+
+.cart {
+   
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255,15%);
+    width: 18em;
+    height: 14em;
+    text-align: center ;
+}
+
+.cart p{
+    
+}
 
 
 /*footer*/
-
-footer {
-    height: 2;
-    background-color: black;
-    padding: 5em 0%;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 0%;
-    
-}
-
-footer h3 {
-        padding: 0% 20em;
-}
